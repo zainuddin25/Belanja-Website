@@ -1,3 +1,7 @@
+<!-- Header -->
+<header></header>
+
+<!-- Hero -->
 <div class="container mx-auto h-screen flex flex-col-reverse lg:flex-row lg:justify-between px-10 lg:items-center my-24 lg:my-0">
     <div class="flex flex-col items-start w-full lg:w-1/2 text-center lg:text-start">
         <h1 class="text-[26px] lg:text-[38px] font-bold">Temukan barang branded dan terpopuler dengan ponsel anda</h1>
@@ -10,3 +14,73 @@
         <img src="./../../assets/image/home.jpg" class="w-[600px]" />
     </div>
 </div>
+
+<!-- Produk -->
+<div class="container mx-auto px-10 mb-20">
+    <h1 class="text-[30px] font-bold">Produk Unggulan Dari Kami</h1>
+    <div class="lg:grid lg:grid-cols-4 gap-4 mt-10">
+        <div class="w-full border rounded-lg mt-6 lg:mt-0"  *ngFor="let listProducts of dataProduct" >
+            <img class="w-full rounded-t-lg" src="{{listProducts.image}}"/>
+            <div class="my-5 px-3">
+                <h1 class="text-xl font-bold">{{listProducts.productName}}</h1>
+                <div class="flex justify-between py-6">
+                    <h1>{{listProducts.brandName}}</h1>
+                    <h1 class="font-bold">{{listProducts.priceProduct}}</h1>
+                </div>
+                <a href="">
+                    <button class="mt-4 text-sm text-black hover:text-white hover:bg-black duration-200 rounded-md  py-3 w-full border border-black">
+                        Beli Sekarang
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="w-full mt-10 flex justify-center">
+        <button class="py-3 border-black hover:bg-black hover:text-white duration-200 rounded-md border px-20 text-sm">Lihat Lebih Banyak</button>
+    </div>
+</div>
+
+<!-- Toko -->
+<div class="w-full container mx-auto px-10 my-4">
+    <h1 class="text-[30px] font-bold">Toko Terlaris dan Terpercaya</h1>
+    <div class="grid grid-cols-5 gap-4 mt-10">
+        <div class="border rounded text-center" *ngFor="let tokos of dataToko">
+            <img class="w-[300px] h-[300px]" src="{{tokos.image}}" alt="">
+            <h1 class="px-4 text-lg mt-4">{{tokos.title}}</h1>
+            <button class="border px-7 border-black rounded hover:bg-black hover:text-white text-sm duration-200 py-2 my-4">Kunjungi Toko</button>
+        </div>
+    </div>
+    <div class="w-full my-10 flex justify-center">
+        <button class="py-3 border-black hover:bg-black hover:text-white duration-200 rounded-md border px-20 text-sm">Lihat Lebih Banyak</button>
+    </div>
+</div>
+
+<!-- Kontak -->
+<div class="container mx-auto px-10 mt-20">
+    <h1 class="text-center text-[30px] font-bold">Hubungi Kami</h1>
+    <div class="flex justify-between">
+        <div class="w-1/2">
+            <img src="../../assets/image/contact.jpg" />
+        </div>
+        <div class="w-1/2 pt-12">
+            <h1 class="text-center text-xl font-semibold">Hubungi Kami Dengan Mengisikan Form Berikut</h1>
+            <div class="flex justify-center mx-16 mt-8">
+                <div class="w-2/4 mr-2">
+                    <p>Username</p>
+                    <input class="w-full border-black border py-2 px-4 outline-none rounded" />
+                </div>
+                <div class="w-2/4 ml-2">
+                    <p>Email</p>
+                    <input class="w-full border-black border py-2 px-4 outline-none rounded" />
+                </div>
+            </div>
+            <div class="mx-16 mt-4">
+                <p>Message</p> 
+                <textarea class="border outline-none px-4 py-2 w-full h-56 border-black rounded"></textarea>
+                <button class="mt-6 border px-10 border-black rounded hover:text-white hover:bg-black duration-200 py-3 text-sm">Kirim Pesan</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer></footer>
