@@ -1,0 +1,47 @@
+<div class="w-screen h-screen flex justify-center">
+    <div class="h-full w-1/4 pt-8">
+        <h1 class="text-center text-2xl font-bold">Belanja.COM</h1>
+        <div class="pt-8">
+            <div class="pl-4 border-l-4 border-blue">
+                <h1 class="py-4 bg-blue px-4 rounded-lg text-white">Dashboard</h1>
+            </div>
+            <a href="/product">
+                <div class="pl-4 border-l-4 mt-2 cursor-pointer">
+                    <h1 class="py-4 bg-white px-4 rounded-lg text-black">Produk</h1>
+                </div>
+            </a>
+        </div> 
+    </div>
+    <div class="w-3/4 px-8 pt-8">
+        <h1 class="text-2xl font-bold">Statistik Penjualan Pertahun</h1>
+        <div class="w-full flex justify-between mt-10">
+            <div class="w-1/4 px-4">
+                <div class="border border-black rounded px-4 py-3">
+                    <h1 class="font-semibold text-sm">Produk Stock Tahun Ini</h1>
+                    <h1 class="text-4xl font-bold mt-3">291 <span class="text-base">Produk Stoc</span></h1>
+                </div>
+            </div>
+            <div class="w-1/4 px-4">
+                <div class="border border-black rounded px-4 py-3">
+                    <h1 class="font-semibold text-sm">Produk Terjual Tahun Ini</h1>
+                    <h1 class="text-4xl font-bold mt-3">289 <span class="text-base">Produk Terjual</span></h1>
+                </div>
+            </div>
+            <div class="w-1/4 px-4">
+                <div class="border border-black rounded px-4 py-3">
+                    <h1 class="font-semibold text-sm">Modal Tahun Ini</h1>
+                    <h1 class="text-4xl font-bold mt-3">13 <span class="text-base">Juta</span></h1>
+                </div>
+            </div>
+            <div class="w-1/4 px-4">
+                <div class="border border-black rounded px-4 py-3">
+                    <h1 class="font-semibold text-sm">Keuntungan Tahun Ini</h1>
+                    <h1 class="text-4xl font-bold mt-3">16.2 <span class="text-base">Juta</span></h1>
+                </div>
+            </div>
+        </div>
+        <div class="chart-container mt-10">
+            <canvas  id="MyChart" >{{ chart }}</canvas>
+        </div>
+    </div>
+</div>

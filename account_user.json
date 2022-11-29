@@ -1,0 +1,44 @@
+{
+  "accountUser": [
+    {
+      "id": 1,
+      "username": "Muhammad Zainuddin Basyar",
+      "password": "zanuk12345"
+    },
+    {
+      "id": 2,
+      "username": "MuhZaan",
+      "password": "zanuk12345"
+    },
+    {
+      "id": 3,
+      "username": "Zaan",
+      "password": "zanuk12345"
+    },
+    {
+      "id": 4,
+      "username": "My name is zaan",
+      "password": "zanuk12345"
+    },
+    {
+      "id": 5,
+      "username": "Zanuk",
+      "password": "zanuk12345"
+    },
+    {
+      "id": 6,
+      "username": "Zaan",
+      "password": "Zanuk12345"
+    },
+    {
+      "id": 10,
+      "username": "MuhZaan",
+      "password": "zanuk12345"
+    },
+    {
+      "id": 11,
+      "username": "Zanuk",
+      "password": "zanuk12345"
+    }
+  ]
+}

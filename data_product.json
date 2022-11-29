@@ -1,0 +1,58 @@
+{
+  "dataProduct": [
+    {
+      "nameProduct": "Sepatu Baru Alhamdulillah",
+      "price": "Rp. 70.000",
+      "stock": 5,
+      "id": 2
+    },
+    {
+      "nameProduct": "Helikopter Terbang",
+      "price": "Rp. 10.000",
+      "stock": 1,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "nameProduct": "Ini Celana",
+      "price": "Rp. 100.000",
+      "stock": 42
+    },
+    {
+      "id": 5,
+      "nameProduct": "Ini Topi",
+      "price": "Rp. 100.000",
+      "stock": 12
+    },
+    {
+      "id": 6,
+      "nameProduct": "Ini Jaket",
+      "price": "Rp. 100.000",
+      "stock": 17
+    },
+    {
+      "id": 7,
+      "nameProduct": "Baju Warna Merah",
+      "price": "Rp. 100.000",
+      "stock": 9
+    },
+    {
+      "id": 8,
+      "nameProduct": "Topi Terbaru",
+      "price": "Rp. 100.000",
+      "stock": 11
+    },
+    {
+      "id": 9,
+      "nameProduct": "Kebaya Merah",
+      "price": "Rp. 100.000",
+      "stock": 1
+    },
+    {
+      "id": 12,
+      "nameProduct": "Baju Ku Baru",
+      "price": "Rp. 100.000",
+      "stock": 11
+    }
+  ]
+}

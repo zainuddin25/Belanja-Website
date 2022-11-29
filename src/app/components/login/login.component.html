@@ -1,0 +1,23 @@
+<div class="w-screen h-screen bg-cover flex items-center justify-center" style="background-image: url('./../../../assets/image/background.jpg');">
+    <div class="rounded-lg py-36 bg-white backdrop-blur-sm bg-opacity-60 px-6 w-2/4">
+        <h1 class="text-2xl font-bold uppercase text-center">Masuk</h1>
+        <p class="mt-4 text-sm text-center px-20">Selamat datang kembali, silahkan isi form yang ada di bawah ini untuk memasuki akun anda yang sudah terdaftar. Jika belum memiliki akun silahkan tekan tompol <a href="register-page" class="text-blue-500 underline">Registrasi</a></p>
+
+        <form class="w-full mt-10" [formGroup]="loginForm">
+            <div class="flex justify-center flex-col">
+                <div class="w-full flex justify-center">
+                    <input class="bg-transparent w-3/4 px-4 py-2 border outline-none text-sm border-black rounded" placeholder="Username" formControlName="username"/>
+                </div>
+                <div class="w-full flex justify-center mt-4">
+                    <input class="bg-transparent w-3/4 px-4 py-2 border outline-none text-sm border-black rounded" placeholder="Password" type="password" formControlName="password"/>
+                </div>
+            </div>
+            <div class="mt-4 flex justify-center">
+                <button class="border px-20 py-2 text-sm border-black rounded hover:bg-black hover:text-white duration-200" (click)="submit()" name="button" type="submit">Masuk</button>
+            </div>
+        </form>
+
+        <p class="text-sm text-center mt-10">Belum punya akun? <a href="register-page" class="text-blue-500 underline">Daftar Sekarang!</a></p>
+
+    </div>
+</div>

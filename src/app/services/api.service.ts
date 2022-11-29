@@ -14,4 +14,8 @@ export class ApiService{
     getToko() : Observable<any> {
         return this.httpClient.get("http://localhost:3001/populerSaller")
     }
+
+    getListProduct() : Observable<any> {
+        return this.httpClient.get("http://localhost:3003/dataProduct")
+    }
 }

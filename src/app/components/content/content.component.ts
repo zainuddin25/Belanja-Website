@@ -1,7 +1,7 @@
 import { Component } from "@angular/core";
-import { Produk } from "../classes/produk";
-import { Toko } from "../classes/toko,";
-import { ApiService } from "../services/api.service";
+import { Produk } from "../../classes/produk";
+import { Toko } from "../../classes/toko";
+import { ApiService } from "../../services/api.service";
 
 @Component({
     selector: "content",
@@ -9,8 +9,7 @@ import { ApiService } from "../services/api.service";
 })
 
 export class ContentComponent{
-com: any;
-
+    
     constructor(private apiService: ApiService) {}
 
     dataProduct : Produk[] = []
